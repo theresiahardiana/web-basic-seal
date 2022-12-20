@@ -1,11 +1,44 @@
 body {
     margin: 0;
     text-align: center;
-    background-color: aqua;
+    background-color: lightslategray;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+/* Navbar */
+
+.navbar{
+    margin: auto;
+   }
+   
+   .navbar ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+       background-color: black;
+   }
+   
+   .navbar li {
+       float: left;
+   }
+   
+   .navbar li a {
+       display: block;
+       color: white;
+       text-align: center;
+       padding: 30px 35px;
+       text-decoration: none;
+   }
+   
+   .navbar li a:hover:not(.active) {
+       background-color: #8c8c8c;
+   }
+   
+   .active {
+       background-color: orange;
+   }
 
 /* Footer */
 
@@ -20,7 +53,7 @@ body {
 
 .main {
     width: 800px;
-    height: 770px;
+    height: 600px;
     background-image: url(wave.svg);
     background-color: white;
     background-size: cover;
@@ -55,3 +88,36 @@ a img {
     border-width: 2px;
     border-color: black;
 } 
+
+/* portofolio.html */
+
+.portofolio{
+    width: 800px;
+    height: 650px;
+    background-image: url(wave.svg);
+    background-color: white;
+    background-size: cover;
+    background-position: bottom;
+    margin: 0 auto;
+    padding: 50px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+table{
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(black, orange, black);
+}
+
+td{
+    text-align: left;
+    font-size: 13px;
+    padding: 12px;
+}
+
+#sosmedH3{
+    text-align: center;
+}
